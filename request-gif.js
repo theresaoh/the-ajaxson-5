@@ -15,10 +15,8 @@ var ajaxson5 = new Vue({
             var searchQuery = ""; // TODO should be e.g. "dance"
 
             // configure a few parameters to attach to our request
-            var params = {
-                api_key: "dc6zaTOxFJmzC",
-                tag : "" // TODO should be e.g. "jackson 5 dance"
-            };
+            var api_key = "dc6zaTOxFJmzC";
+            var tag = ""; // TODO should be e.g. "jackson 5 dance"
 
             // TODO what do we want this URL to be?
             fetch(`http://example.com?api_key=${api_key}&tag=${tag}`)
